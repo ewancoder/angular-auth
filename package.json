@@ -1,0 +1,28 @@
+{
+  "name": "ewancoder-angular-auth",
+  "version": "0.1.0-alpha.1",
+  "description": "Angular auth.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewancoder/angular-auth"
+  },
+  "keywords": ["Angular", "Auth"],
+  "author": "ewancoder@gmail.com",
+  "bugs": {
+    "url": "https://github.com/ewancoder/angular-auth"
+  },
+  "homepage": "https://github.com/ewancoder/angular-auth#readme",
+  "dependencies": {
+    "@angular/core": "^2.4.4",
+    "rxjs": "^5.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}

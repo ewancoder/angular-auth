@@ -1,6 +1,6 @@
 {
   "name": "ewancoder-angular-auth",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Angular auth.",
   "license": "MIT",
   "main": "index.js",
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ewancoder/angular-auth#readme",
   "dependencies": {
     "@angular/core": "^2.4.4",
-    "rxjs": "^5.0.3"
+    "rxjs": "^5.0.3",
+    "ewancoder-angular-logger": "^0.1.0-alpha.2"
   },
   "devDependencies": {
     "typescript": "^2.1.5"

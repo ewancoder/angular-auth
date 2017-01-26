@@ -3,13 +3,16 @@ import { LoggerModule } from 'ewancoder-angular-logger';
 import { AuthService } from './auth.service';
 
 @NgModule({
-    imports: [ LoggerModule.forRoot() ]
+    imports: [ LoggerModule ]
 })
 export class AuthModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: AuthModule,
-            providers: [ AuthService ]
+            providers: [
+                AuthService,
+                ...LoggerModule.forRoot().providers
+            ]
         }
     }
 }

@@ -13,7 +13,7 @@ export class AuthService {
 
         this.token = new BehaviorSubject<string>(token ? token : '');
 
-        logger.log('AuthService initialized.', ['auth', 'service', 'init']);
+        logger.log('Initialized AuthService.', ['auth', 'service', 'init']);
     }
 
     get token$(): Observable<string> {

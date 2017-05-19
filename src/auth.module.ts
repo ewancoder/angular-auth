@@ -1,5 +1,5 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
-import { LoggerModule } from 'ewancoder-angular-logger';
+import { LoggerModule } from '@ewancoder/angular-logger';
 import { AuthService } from './auth.service';
 
 @NgModule({

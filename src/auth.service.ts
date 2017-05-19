@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
-import { LoggerService } from 'ewancoder-angular-logger';
+import { LoggerService } from '@ewancoder/angular-logger';
 
 @Injectable()
 export class AuthService {
